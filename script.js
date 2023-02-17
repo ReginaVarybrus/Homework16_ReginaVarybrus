@@ -127,8 +127,8 @@ class User {
 }
 
 class Student extends User {
-    constructor(name, isFlying, year) {
-      super(name, isFlying);
+    constructor(name, surname, year) {
+      super(name, surname);
       this.year = year;
     }
     get getCourse() {
